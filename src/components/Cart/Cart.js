@@ -22,7 +22,8 @@ export default class Store extends Component {
                 </React.Fragment>
               );
             } else {
-              return <EmptyCart />;
+              return (<React.Fragment> <EmptyCart /> 
+              </React.Fragment>);
             }
           }}
         </ProductConsumer>
